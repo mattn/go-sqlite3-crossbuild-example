@@ -10,7 +10,7 @@ import (
 
 const name = "go-sqlite3-crossbuild-example"
 
-const version = "0.0.0"
+const version = "0.0.1"
 
 var revision = "HEAD"
 
