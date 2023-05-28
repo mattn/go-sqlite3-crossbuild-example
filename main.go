@@ -8,6 +8,12 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 )
 
+const name = "go-sqlite3-crossbuild-example"
+
+const version = "0.0.0"
+
+var revision = "HEAD"
+
 func fatalIf(err error) {
 	if err != nil {
 		log.Fatal(err)
